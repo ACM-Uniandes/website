@@ -886,6 +886,73 @@ section {
 }
 
 /*--------------------------------------------------------------
+# Groups
+--------------------------------------------------------------*/
+
+.groups .icon-box {
+  text-align: center;
+  border: 1px solid #ceddeb;
+  padding: 80px 20px;
+  transition: all ease-in-out 0.3s;
+  background: #fff;
+}
+
+.groups .icon-box .icon {
+  margin: 0 auto;
+  width: 64px;
+  height: 64px;
+  background: #ceddeb;
+  border-radius: 50px;
+  border: 1px solid #ceddeb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  transition: ease-in-out 0.3s;
+}
+
+.groups .icon-box .icon i {
+  color: #a9c4de;
+  font-size: 28px;
+  transition: ease-in-out 0.3s;
+}
+
+.groups .icon-box h4 {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 24px;
+}
+
+.groups .icon-box h4 a {
+  color: #353535;
+  transition: ease-in-out 0.3s;
+}
+
+.groups .icon-box p {
+  line-height: 24px;
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.groups .icon-box span p {
+  font-weight: bold
+}
+
+.groups .icon-box:hover {
+  border-color: #fff;
+  box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
+}
+
+.groups .icon-box:hover h4 a,
+.groups .icon-box:hover .icon i {
+  color: #5E8AB4;
+}
+
+.groups .icon-box:hover .icon {
+  border-color: #5E8AB4;
+}
+
+/*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
 .team {
