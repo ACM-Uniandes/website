@@ -48,11 +48,11 @@
   </section>
 
   <!-- ======= Header ======= -->
+
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex justify-content-between">
 
       <div class="logo">
-        <!-- Uncomment below if you prefer to use an image logo -->
         <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
         <a href="index.html"><h1>ACM Uniandes</h1></a>
       </div>
@@ -61,9 +61,10 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#nosotros">Nosotros</a></li>
-          <li><a class="nav-link scrollto " href="#groups">Grupos</a></li>
           <li><a class="nav-link scrollto" href="#services">Actividades</a></li>
+          <li><a class="nav-link scrollto " href="#groups">Grupos</a></li> 
           <li><a class="nav-link scrollto " href="#cta">Únete</a></li>
+          <li><a class="nav-link scrollto " href="#proyects">Proyectos</a></li>
           <li><a class="nav-link scrollto" href="#team">Equipo</a></li>
           <li><a class="nav-link scrollto " href="#faq">FAQ</a></li>
         </ul>
@@ -74,6 +75,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
+
   <section id="hero">
     <div class="hero-container" data-aos="fade-up">
       <h1>SOMOS ACM UNIANDES</h1>
@@ -85,6 +87,7 @@
   <main id="main">
 
     <!-- ======= About Section ======= -->
+
     <section id="nosotros" class="nosotros">
       <div class="container">
 
@@ -130,6 +133,7 @@
     </section><!-- End About Section -->
 
     <!-- ======= Services Section ======= -->
+
     <section id="services" class="services">
       <div class="container">
 
@@ -240,8 +244,9 @@
       </div>
     </section><!-- End Cta Section -->
 
-    <!--
-    <section id="portfolio" class="portfolio">
+    <!-- ======= Portfolio Section ======= -->
+
+    <section id="proyects" class="portfolio">
       <div class="container">
 
         <div class="section-title" data-aos="zoom-in">
@@ -253,35 +258,37 @@
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up">
             <ul id="portfolio-flters">
               <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter=".filter-rookie">Rookies</li>
+              <!--<li data-filter=".filter-card">Card</li>-->
+              <li data-filter=".filter-ninja">Ninjas</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-ninja">
+            <h4 class="text-center proyect-title">ACM Uniandes WebApp</h4>
+            <a href="./proyects/webapp.html"><img src="./assets/img/logo.png" class="img-fluid" alt=""></a>
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>ACM Uniandes WebApp</h4>
+              <p>Estamos reuniendo personas para iniciar la WebApp de la ACM Uniandes. Si estás interesado en participar, aquí encontrarás más información.</p>
+              <a href="./assets/img/logo.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"></a>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+          
+          <div class="col-lg-4 col-md-6 portfolio-item filter-rookie">
+            <h4 class="text-center proyect-title">Web Proyect</h4>
+            <a href="./proyects/web-proyect.html"><img src="./assets/img/logo.png" class="img-fluid" alt=""></a>
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Web Proyect</h4>
+              <p>Si estás interesado en aprender desarrollo web, este proyecto es para tí. Si quieres participar, aquí encontrarás más información.</p>
+              <a href="./assets/img/logo.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link"></a>
             </div>
           </div>
-
+          
+          <!--
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -351,12 +358,13 @@
               <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
             </div>
           </div>
+        -->
 
         </div>
 
       </div>
     </section>
-    ––>
+  
     <!-- ======= Team Section ======= -->
     
     <section id="team" class="team">
