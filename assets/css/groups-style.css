@@ -1,0 +1,50 @@
+/*--------------------------------------------------------------
+# Rookie Hero
+--------------------------------------------------------------*/
+
+.rookie-hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/groups/hero.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+
+/*--------------------------------------------------------------
+# Ninja Hero
+--------------------------------------------------------------*/
+
+.ninja-hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/groups/ninja2-hero.jpg") top center;
+    background-size: cover;
+    position: relative;
+  }
+
+/*--------------------------------------------------------------
+# Hero
+--------------------------------------------------------------*/
+
+#hero .hero-arrow {
+    margin-top: 10px;
+  }
+
+#hero .hero-arrow .icon {
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 64px;
+    height: 64px;
+    transition: 0.5s;
+  }
+
+#hero .hero-arrow .icon i {
+    color: #eee;
+    font-size: 60px;
+  }
+
+#hero .hero-arrow .icon i:hover {
+    color: #5E8AB4;
+  }
