@@ -5,7 +5,7 @@
 .rookie-hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/groups/hero.jpg") top center;
+    background: url("../img/groups/Rookies/hero.jpg") top center;
     background-size: cover;
     position: relative;
   }
@@ -17,7 +17,7 @@
 .ninja-hero {
     width: 100%;
     height: 100vh;
-    background: url("../img/groups/ninja2-hero.jpg") top center;
+    background: url("../img/groups/Ninjas/hero.jpg") top center;
     background-size: cover;
     position: relative;
   }
